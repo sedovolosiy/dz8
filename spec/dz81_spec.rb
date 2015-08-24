@@ -1,5 +1,5 @@
 require_relative '../dz81'
-
+#автотест работает для класса
 describe EvTest do
 	let(:ev_test) do
 	EvTest.new
@@ -39,6 +39,7 @@ expect(ev_test.test_id_1('@HELLo')).to eq('Неправильно')
 	end
 
 	it 'Не должен начинаться с @ и цифры' do
-expect(ev_test.test_id_1('@1ello')).to eq('Неправильно')
+expect(ev_test.test_id_1('@2ello')).to eq('Неправильно')
 	end
 end
+# остальные проверки аналогичны
