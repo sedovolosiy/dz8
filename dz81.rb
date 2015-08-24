@@ -6,7 +6,7 @@ class EvTest
 		regexp =~/\A([a-z])+([a-z\d\_]+)\Z/ ? 'Правильно' : 'Неправильно'
 		end
 		def test_id_3(regexp)
-		regexp =~/\A([A-Z])+([a-z\d\_]+)\Z/ ? 'Правильно' : 'Неправильно'
+		regexp =~/\A([A-Z])+([a-zA-z\d\_]+)\Z/ ? 'Правильно' : 'Неправильно'
 		end
 		def test_id_4(regexp)
 		regexp =~/\A(@@[a-z])+([a-z\d\_]+)\Z/ ? 'Правильно' : 'Неправильно'

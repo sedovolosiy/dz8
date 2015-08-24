@@ -83,12 +83,12 @@ expect(ev_test.test_id_2('HeLlo')).to eq('Неправильно')
 
 # Класс начало
 	it 'Должен начинаться с большой буквы, содержит цифры и подчеркивание' do
-expect(ev_test.test_id_3('Cla22ss_3')).to eq('Правильно')
+expect(ev_test.test_id_3('ClA22ss_3')).to eq('Правильно')
 	end
 
 
 	it 'Не должен начинаться с маленькой буквы' do
-expect(ev_test.test_id_3('cla22ss_3')).to eq('Неправильно')
+expect(ev_test.test_id_3('clA22ss_3')).to eq('Неправильно')
 	end
 # Класс конец
 
