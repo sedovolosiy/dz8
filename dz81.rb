@@ -15,7 +15,7 @@ class EvTest
 		regexp =~/\A([A-Z])+([A-Z\d\_]+)\Z/ ? 'Правильно' : 'Неправильно'
 		end
 end
-
+#автотест работает для класса
 print 'Введите идентификатор Свойство объекта: '
 propertis_object = EvTest.new
 regexp = gets
