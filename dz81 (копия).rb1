@@ -1,0 +1,5 @@
+class EvTest
+	def test_id(regexp)
+	regexp =~/\A\d{2}\Z/
+	end
+end
