@@ -1,4 +1,4 @@
-require_relative '../dz81'
+require_relative '../dz81_lib'
 #автотест работает для класса
 describe EvTest do
 	let(:ev_test) do
